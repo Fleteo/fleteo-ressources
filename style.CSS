@@ -55,6 +55,7 @@ article {
   border-left: 4px solid #327497;
 }
 footer {
+  bottom: 0;
   background-color:#327497;;
   
   padding: 2rem;
