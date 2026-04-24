@@ -1,13 +1,13 @@
 header{
     background-color: #327497;
+    border-radius: 10px;
 
     color: white;
-    padding: 10px;
-    text-align: center;
+    padding: 5px;
+   
 }
 .text-nav{
-    display: flex;
-    
+    display: flex; 
     gap: 20px;
     margin-top: 10px;
     justify-content: justify;
@@ -33,12 +33,11 @@ header{
 .logo span {
   color: #000000;
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
 h1{
-  font-size: 2rem;
   font-weight: 700;
   color: #1a1a2e;
   margin-bottom: 2rem;
@@ -49,9 +48,8 @@ h1{
 article {
   background-color: #fea72ec2;
   border-radius: 10px;
-  padding: 1.5rem 2rem;
+  padding: 1.2rem 2rem;
   margin-bottom: 1.5rem;
-  border: 1px solid #e0e0e0;
   border-left: 4px solid #327497;
 }
 footer {
@@ -75,34 +73,6 @@ footer a {
   
   background-color:#FEA82E;
   border-radius: 10px;
-}
-/* Tablette */
-@media (max-width: 768px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  .text-nav {
-    gap: 0.8rem;
-  }
-
-  .text-nav a {
-    font-size: 12px;
-  }
-
-  article {
-    padding: 1rem;
-  }
-    footer {
-        padding: 1.5rem;
-    }
-     .logo {
-        font-size: 1.2rem;
-        margin-bottom: 1.5rem;
-    }
-     .logo span {
-        font-size: 1.2rem;
-    }
 }
 
 /* Mobile */
@@ -144,15 +114,13 @@ footer a {
 
 .footer-btn a {
   display: inline-block;
-  padding: 15px 25px;
-  background-color: #3535ff;
+  background-color: #FEA82E;
   color: white;
   text-decoration: none;
-  border-radius: 5px;
   font-weight: bold;
-  transition: background-color 0.2s;
+ 
 }
 
 .footer-btn a:hover {
-  background-color: #2020cc;
+  background-color: #052231;
 }
