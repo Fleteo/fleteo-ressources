@@ -1,8 +1,6 @@
 header{
     background-color: #327497;
     border-radius: 10px;
-
-    color: white;
     padding: 5px;
    
 }
@@ -36,7 +34,12 @@ header{
   font-size: 1.2rem;
   font-weight: 700;
 }
-
+.logo span1 {
+  color: #FEA82E;
+  font-weight: 400;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
 h1{
   font-weight: 700;
   color: #1a1a2e;
@@ -51,6 +54,7 @@ article {
   padding: 1.2rem 2rem;
   margin-bottom: 1.5rem;
   border-left: 4px solid #327497;
+  box-shadow: #0000001c 0px 2px 4px;
 }
 footer {
   bottom: 0;
@@ -139,4 +143,29 @@ footer a {
 
 .footer-btn a:hover {
   background-color: #052231;
+}
+.imp {
+  background-color: #ffffff1c;
+  border-left: 4px solid #248703;
+}
+.imp h2, .imp strong {
+  color: #3b9705;
+  font-weight: 700;
+}
+.def {
+  background-color: #ffffff1c;
+  border-left: 4px solid #FEA82E;
+}
+.def h2, .def strong {
+  color: #FEA82E;
+  font-weight: 700;
+}
+
+.risques {
+  background-color: #ffffff1c;
+  border-left: 4px solid #e82e2e;
+}
+.risques h2, .risques strong {
+  color: #e82e2e;
+  font-weight: 700;
 }
