@@ -4,22 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link
-      
-    />
+    <link />
     <title>FLETEO RESSOURCES - Accueil</title>
   </head>
   <body>
     <main>
       <header>
-        <nav >
-          <div >
-              <a class="logo" href="#">
-          Flet<span1>eo</span1><span>ressources</span> 
-        </a>
-        <div class="menu_toggle">
-          
-        </div>
+        <nav>
+          <div>
+            <a class="logo" href="#">
+              Flet<span1>eo</span1><span>ressources</span>
+            </a>
+          </div>
+          <div class="menu_toggle">
             <div class="text-nav">
               <a href="index.html">Accueil</a>
               <a href="guide-gestion-flotte-pme.html">gestion de flotte</a>
@@ -39,7 +36,15 @@
       <div class="container">
         <article>
           <img
-            src="/fleteo-ressources/images/image1.jpg"
+            src="/fleteo-ressources/images/img1.webp"
+            srcset="
+              /fleteo-ressources/images/img1-400.webp  400w,
+              /fleteo-ressources/images/img1-800.webp  800w,
+              /fleteo-ressources/images/img1.webp 1200w
+
+            "
+            sizes="(max-width:600px) 400px, 800px, 1200px"
+            loading="lazy"
             alt="Image de gestion de flotte"
           />
           <div>
@@ -50,7 +55,14 @@
         </article>
         <article>
           <img
-            src="/fleteo-ressources/images/image3.jpg"
+            src="/fleteo-ressources/images/img3.webp"
+            srcset="
+              /fleteo-ressources/images/img3-400.webp  400w,
+              /fleteo-ressources/images/img3-800.webp  800w,
+              /fleteo-ressources/images/img3.webp 1200w
+            "
+           sizes="(max-width: 600px) 400px, (max-width: 1024px) 800px, 1200px"
+            loading="lazy"
             alt="Image de logiciel de suivi"
           />
           <div>
@@ -59,7 +71,14 @@
         </article>
         <article>
           <img
-            src="/fleteo-ressources/images/image4.jpg"
+            src="/fleteo-ressources/images/img4.webp"
+            srcset="
+              /fleteo-ressources/images/img4-400.webp 400w,
+              /fleteo-ressources/images/img4.webp  800w,
+              /fleteo-ressources/images/img4.webp 1200w
+            "
+            sizes="(max-width:600px) 400px, 800px, 1200px"
+            loading="lazy"
             alt=" Image de gestion de flotte occitanie"
           />
           <div>
@@ -70,7 +89,12 @@
         </article>
         <article>
           <img
-            src="/fleteo-ressources/images/image2.jpg"
+            src="/fleteo-ressources/images/img2.webp"
+            srcset="/fleteo-ressources/images/img2-400.webp 400w,
+             /fleteo-ressources/images/img2-800.webp 800w, 
+             /fleteo-ressources/images/img2.webp 1200w" 
+            sizes="(max-width:600px) 400px, 800px, 1200px"
+            loading="lazy"
             alt=" Image de checklist entretien véhicule"
           />
           <div>
@@ -81,7 +105,14 @@
         </article>
         <article>
           <img
-            src="/fleteo-ressources/images/image5.jpg"
+            src="/fleteo-ressources/images/img5.webp"
+            srcset="
+              /fleteo-ressources/images/img5-400.webp  400w,
+              /fleteo-ressources/images/img5-800.webp  800w,
+              /fleteo-ressources/images/img5.webp 1200w
+            "
+            sizes="(max-width:600px) 400px, 800px, 1200px"
+            loading="lazy"
             alt=" Image de coût de gestion de flotte"
           />
           <div>
@@ -89,17 +120,19 @@
           </div>
         </article>
       </div>
-    
-    <footer>
-      <h3>
-        Fleteo suit vos véhicules, vos conducteurs et vos dépenses à votre
-        place. Alertes automatiques, localisation en temps réel, rapports en un
-        clic.
+      <div class="bandeau-fleteo">
+        <p>Gérez votre flotte facilement avec Fleteo</p>
+        <a href="https://fleteo.fr">Découvrir Fleteo →</a>
+      </div>
 
-       
-      </h3> <a href="https://fleteo.fr">Rejoindre Fleteo</a>
-    </footer>
-  </main>
-    <script src="script.js"defer></script>
+      <footer>
+        <h3>
+          Fleteo suit vos véhicules, vos conducteurs et vos dépenses à votre
+          place. Alertes automatiques, localisation en temps réel, rapports en
+          un clic.
+        </h3>
+      </footer>
+    </main>
+    <script src="script.js"></script>
   </body>
 </html>
