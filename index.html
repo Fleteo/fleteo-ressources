@@ -8,30 +8,10 @@
     <title>FLETEO RESSOURCES - Accueil</title>
   </head>
   <body>
+     <div id="loader"></div>
     <main>
-      <header>
-        <nav >
-          <div >
-              <a class="logo" href="#">
-          Flet<span1>eo</span1><span>ressources</span> 
-        </a>
-        <div class="menu_toggle">
-          </div>
-            <div class="text-nav">
-              <a href="index.html">Accueil</a>
-              <a href="guide-gestion-flotte-pme.html">gestion de flotte</a>
-              <a href="logiciel-suivi-vehicule.html">logiciel suivi véhicule</a>
-              <a href="gestion-flotte-occitanie.html"
-                >gestion de flotte occitanie</a
-              >
-              <a href="checklist-entretien-vehicule.html"
-                >checklist entretien véhicule</a
-              >
-              <a href="cout-gestion-flotte.html">cout de gestion de flotte</a>
-            </div>
-          </div>
-        </nav>
-      </header>
+     <header id="header"></header> 
+
       <h1>Bienvenue sur Fleteo Ressources</h1>
       <div class="container">
         <article>
@@ -39,11 +19,11 @@
             src="/fleteo-ressources/images/img1.webp"
             srcset="
               /fleteo-ressources/images/img1-400.webp  400w,
-              /fleteo-ressources/images/img1-800.webp  800w,
+             
               /fleteo-ressources/images/img1.webp 1200w
 
             "
-            sizes="(max-width:600px) 400px, 800px, 1200px"
+            sizes="(max-width:600px) 400px,  1200px"
             loading="lazy"
             alt="Image de gestion de flotte"
           />
@@ -58,10 +38,10 @@
             src="/fleteo-ressources/images/img3.webp"
             srcset="
               /fleteo-ressources/images/img3-400.webp  400w,
-              /fleteo-ressources/images/img3-800.webp  800w,
+              
               /fleteo-ressources/images/img3.webp 1200w
             "
-           sizes="(max-width: 600px) 400px, (max-width: 1024px) 800px, 1200px"
+           sizes="(max-width: 600px) 400px, (max-width: 1024px) , 1200px"
             loading="lazy"
             alt="Image de logiciel de suivi"
           />
@@ -74,10 +54,10 @@
             src="/fleteo-ressources/images/img4.webp"
             srcset="
               /fleteo-ressources/images/img4-400.webp 400w,
-              /fleteo-ressources/images/img4.webp  800w,
+              
               /fleteo-ressources/images/img4.webp 1200w
             "
-            sizes="(max-width:600px) 400px, 800px, 1200px"
+            sizes="(max-width:600px) 400px, , 1200px"
             loading="lazy"
             alt=" Image de gestion de flotte occitanie"
           />
@@ -91,9 +71,9 @@
           <img
             src="/fleteo-ressources/images/img2.webp"
             srcset="/fleteo-ressources/images/img2-400.webp 400w,
-             /fleteo-ressources/images/img2-800.webp 800w, 
+           
              /fleteo-ressources/images/img2.webp 1200w" 
-            sizes="(max-width:600px) 400px, 800px, 1200px"
+            sizes="(max-width:600px) 400px, , 1200px"
             loading="lazy"
             alt=" Image de checklist entretien véhicule"
           />
@@ -108,7 +88,7 @@
             src="/fleteo-ressources/images/img5.webp"
             srcset="
               /fleteo-ressources/images/img5-400.webp  400w,
-              /fleteo-ressources/images/img5-800.webp  800w,
+             
               /fleteo-ressources/images/img5.webp 1200w
             "
             sizes="(max-width:600px) 400px, 800px, 1200px"
@@ -120,18 +100,8 @@
           </div>
         </article>
       </div>
-      <div class="bandeau-fleteo">
-        <p>Gérez votre flotte facilement avec Fleteo</p>
-        <a href="https://fleteo.fr">Découvrir Fleteo →</a>
-      </div>
-
-      <footer>
-        <h3>
-          Fleteo suit vos véhicules, vos conducteurs et vos dépenses à votre
-          place. Alertes automatiques, localisation en temps réel, rapports en
-          un clic.
-        </h3>
-      </footer>
+      
+      <footer id="footer"></footer>
     </main>
     <script src="script.js"></script>
   </body>
