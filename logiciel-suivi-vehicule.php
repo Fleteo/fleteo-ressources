@@ -1,18 +1,3 @@
-<!doctype html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Logiciel de suivi de véhicules pour entreprises : localisez vos véhicules, réduisez vos coûts et anticipez les pannes grâce à un outil simple et efficace." />
-    <meta name="robots" content="index, follow" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Logiciel Suivi Véhicules Entreprise | Fleteo Ressources</title>
-  </head>
-  <div id="loader"></div>
-  <body>
-      
-    <main>
-       <header id="header"></header> 
 
       <h1>Logiciel de Suivi Véhicules pour les Entreprises</h1>
       <article class="def">
@@ -143,8 +128,4 @@
           pour reprendre le contrôle sans complexité technique.
         </p>
       </article>
-     <footer id="footer"></footer> 
-    </main>
-    <script src="script.js"></script>
-  </body>
-</html>
+     

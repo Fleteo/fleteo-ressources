@@ -1,18 +1,4 @@
-<!doctype html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Optimisez les coûts de votre flotte automobile. Découvrez les meilleures pratiques budgétaires, le calcul du TCO et les stratégies de réduction de coûts pour votre entreprise." />
-    <meta name="robots" content="index, follow" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Coûts de Gestion de Flotte : Optimisation et Stratégies | Fleteo Ressources</title>
-  </head>
-  <div id="loader"></div>
-  <body>
-      
-    <main>
-       <header id="header"></header> 
+
 
       <h1>Coûts de Gestion de Flotte </h1>
 

@@ -1,28 +1,4 @@
-// ── 1. HEADER en premier ──
-document.getElementById('header').innerHTML = `
-  <a class="logo" href="index.html">
-    Flet<span1>eo</span1><span>ressources</span>
-  </a>
-  <div class="menu_toggle"></div>
-  <div class="text-nav">
-    <a href="index.html">Accueil</a>
-    <a href="guide-gestion-flotte-pme.html">Gestion de flotte</a>
-    <a href="logiciel-suivi-vehicule.html">Logiciel suivi véhicule</a>
-    <a href="gestion-flotte-occitanie.html">Gestion de flotte Occitanie</a>
-    <a href="checklist-entretien-vehicule.html">Checklist entretien véhicule</a>
-    <a href="cout-gestion-flotte.html">Coût de gestion de flotte</a>
-  </div>
-`;
-// ── FOOTER ──
-document.getElementById('footer').innerHTML = `
-  <div class="footer-content">
-    <p>Fleteo suit vos véhicules, vos conducteurs et vos dépenses à votre place. Alertes automatiques, localisation en temps réel, rapports en un clic.</p>
-    <a href="https://fleteo.fr" class="footer-btn">
-      <strong>Découvrir Fleteo</strong>
-      <span>→</span>
-    </a>
-  </div>
-`;
+
 // ── 2. MENU après le header ──
 var menu = document.querySelector('.text-nav');
 var menu_toggle = document.querySelector('.menu_toggle');

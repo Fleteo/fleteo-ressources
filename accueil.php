@@ -1,18 +1,4 @@
-<!doctype html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link />
-    <title>FLETEO RESSOURCES - Accueil</title>
-  </head>
-  <body>
-     <div id="loader"></div>
-    <main>
-     <header id="header"></header> 
-
-      <h1>Bienvenue sur Fleteo Ressources</h1>
+<h1>Bienvenue sur Fleteo Ressources</h1>
       <div class="container">
         <article>
           <img
@@ -101,8 +87,3 @@
         </article>
       </div>
       
-      <footer id="footer"></footer>
-    </main>
-    <script src="script.js"></script>
-  </body>
-</html>

@@ -1,18 +1,4 @@
-<!doctype html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Gestion de flotte en Occitanie : découvrez comment optimiser vos véhicules d'entreprise à Toulouse, Montpellier et dans toute la région. Conseils et solutions adaptées aux PME occitanes." />
-    <meta name="robots" content="index, follow" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Gestion de Flotte en Occitanie | Fleteo Ressources</title>
-  </head>
-  <div id="loader"></div>
-  <body>
-      
-    <main>
-       <header id="header"></header> 
+
       <h1>Gestion de Flotte en Occitanie</h1>
 
       <article class="def">
@@ -144,10 +130,3 @@
         </ul>
       </article>
       
-      
-      <footer id="footer"></footer> 
-    </main>
-     <script src="script.js"></script>
-  </body>
-</html>
- 

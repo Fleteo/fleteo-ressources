@@ -8,13 +8,17 @@
 
 header{
   background-color: #ffffff;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 8px 16px;
   display: flex;
   align-items: center;
   gap: 16px;
   flex-wrap: nowrap;
   box-shadow: #0000001c 0px 2px 4px; /* Ajoute une ombre légère pour un effet de profondeur */
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Assure que le header reste au-dessus des autres
+  
 }
 .navbar {
   flex: 1;/* Prend tout l'espace disponible */

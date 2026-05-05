@@ -1,16 +1,5 @@
-<!doctype html>
-<html lang="fr"></html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel ="stylesheet" href="style.css"/>
-   <title>Guide de Gestion de Flotte pour les PME | Fleteo Ressources</title>
-  </head>
-  <div id="loader"></div>
-  <body>
-      
-    <main>
-       <header id="header"></header> 
+
+     
  
       <h1>Guide de Gestion de Flotte pour les PME</h1>
  
@@ -122,9 +111,3 @@
         </p>
       </article>
    
-      <footer id="footer"></footer> 
-    </main>
-    <script src="script.js"></script>
-  </body>
-</html>
- 
