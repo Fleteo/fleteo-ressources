@@ -9,16 +9,14 @@
 header{
   background-color: #ffffff;
   border-radius: 5px;
-  padding: 8px 16px;
+ padding: 10px 20px;
   display: flex;
   align-items: center;
   gap: 16px;
-  flex-wrap: nowrap;
   box-shadow: #0000001c 0px 2px 4px; /* Ajoute une ombre légère pour un effet de profondeur */
   position: sticky;
   top: 0;
-  z-index: 1000; /* Assure que le header reste au-dessus des autres
-  
+  z-index: 1000;
 }
 .navbar {
   flex: 1;/* Prend tout l'espace disponible */
@@ -26,12 +24,18 @@ header{
   padding: 0;/* Supprime les marges par défaut */
   
 }
+header nav img {
+    height: 40px; /* Ajustez cette valeur (30px, 40px, etc.) */
+    width: auto;   /* Maintient les proportions */
+    margin-right: 10px; /* Un petit espace entre l'image et le texte */
+}
  
 .text-nav{
     display: flex; /* Affiche les éléments en ligne */
     justify-content: justify; 
-    gap: 15px; /* Espacement entre les elements */
+    gap: 20px; /* Espacement entre les elements */
     list-style: none;
+    
     
 }
 .text-nav a{
@@ -39,8 +43,8 @@ header{
     text-decoration: none;
     justify-content: space-between;/* Aligne les éléments à gauche et à droite */
     font-size: 14px;/* Taille du texte des liens de navigation */
-    transition: 0.5s;
-  
+    
+    
   
   
 
@@ -48,14 +52,12 @@ header{
   
 }
 .text-nav a:hover{
-    background-color: #FEA82E;
-    padding: 10px;
-    border-radius: 20px;
-    color:#000
-  
+  color: #FEA82E;
+
 }
 .logo{
   color: rgb(0, 0, 0);
+  font-weight: 300;
   font-size: 1.3rem;/* Taille du texte du logo */
   font-weight: 700;/* Met en gras le texte du logo */
   text-decoration: none;
@@ -75,6 +77,12 @@ header{
   font-weight: 400;
   font-size: 1.3rem;
   font-weight: 700;
+}
+.logo-img {
+  height: 40px; /* Ajustez cette valeur (30px, 40px, etc.) */
+  width: auto;   /* Maintient les proportions */
+  margin-right: 10px; /* Un petit espace entre l'image et le texte */
+  align-items: center;
 }
 h1{
   font-weight: 700;
@@ -98,6 +106,18 @@ article {
   
 
 }
+article a {
+    display: block;
+    text-decoration: none;
+    color: #1a1a2e;
+}
+
+/* Pour le texte dans l'article */
+.article-text {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
 article ul li {
   margin-bottom: 0.5rem;
   list-style: none;
@@ -108,6 +128,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-top: 4px solid #FEA82E; /* Rappel du style des articles */
   
 }
 .footer-content {
@@ -329,9 +350,7 @@ footer h3 {
 
 }
 .text-nav.responsive a:hover {
-  background-color: #FEA82E;
-  padding: 10px;
-  color: #000;
+  color: #FEA82E;
 
 }
 }
@@ -340,6 +359,7 @@ footer h3 {
   background-color: #eefaf0;
   border: 1px solid #24870333;
   border-left: 4px solid #248703;
+  border-right: 5px solid #248703 ;
 }
 .imp h2, .imp strong { color: #248703; }
 
@@ -383,12 +403,21 @@ article.active{
   width: 100%; height: 100%;
   background: #ffffff;
   display: flex;
+  flex-direction: column; /* <-- AJOUTEZ CECI : empile les éléments */
   align-items: center;
   justify-content: center;
+  gap: 20px; /* Ajoute un espace entre le logo et le spinner */
   z-index: 9999;
   transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 
+/* Ajoutez aussi un style pour le logo pour qu'il soit visible */
+#loader .logo {
+  font-size: 2rem; /* Ajustez la taille */
+  font-weight: bold;
+  color: #333; /* Assurez-vous que la couleur n'est pas blanche */
+}
+ 
 #loader.hidden {
   opacity: 0;
   visibility: hidden;

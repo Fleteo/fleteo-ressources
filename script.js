@@ -7,12 +7,11 @@ menu_toggle.onclick = function() {
   menu.classList.toggle('responsive');
 }
 
-// ── 3. LOADER sans fetch ──
-document.getElementById('loader').innerHTML = `
-  <div class="loader-spinner"></div>
-`;
 setTimeout(() => {
-  document.getElementById('loader').classList.add('hidden');
+  const loader = document.getElementById('loader');
+  if (loader) {
+    loader.classList.add('hidden');
+  }
 }, 3000);
 
 // ── 4. SCROLL REVEAL ──

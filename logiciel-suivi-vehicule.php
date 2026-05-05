@@ -19,8 +19,18 @@
             </p>
           </li>
         </ol>
-        <img src="https://fleteo.fr/images/fleteo-dashboard.jpg" alt="Dashboard de suivi de flotte Fleteo" class="img-fluid mt-4">
-      </article>
+ <img
+            src="images/img6-1200.webp"
+            srcset="
+              images/img6-400.webp 400w,
+              images/img6-800.webp  800w,
+              images/img6-1200.webp 1200w
+            "
+            sizes="(max-width:600px) 400px, 800px, 1200px"
+            loading="lazy"
+            alt=" Image de gestion de flotte occitanie"
+          />
+          <div>      </article>
 
       <article class="imp">
         <h2>Pourquoi utiliser un logiciel de suivi ?</h2>

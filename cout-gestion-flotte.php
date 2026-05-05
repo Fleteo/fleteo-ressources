@@ -76,9 +76,3 @@
       </article>
        
 </div>
-
-     <footer id="footer"></footer> 
-    </main>
-    <script src="script.js"></script>
-  </body>
-</html>
