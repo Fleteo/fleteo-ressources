@@ -8,82 +8,88 @@
 
 header{
   background-color: #ffffff;
-  border-radius: 5px;
+  border-radius: 10px;
  padding: 10px 20px;
-  display: flex;
-  align-items: center;
-  gap: 16px;
   box-shadow: #0000001c 0px 2px 4px; /* Ajoute une ombre légère pour un effet de profondeur */
   position: sticky;
   top: 0;
   z-index: 1000;
 }
+header nav {
+  display: flex;
+ flex-direction: row;      /* ← tout sur une ligne */
+  align-items: center;
+  width: 100%;
+  gap: 20px; 
+}
 .navbar {
-  flex: 1;/* Prend tout l'espace disponible */
   display: flex;
   padding: 0;/* Supprime les marges par défaut */
+  gap: 10px; /* Ajoute un espace entre les éléments de la barre de navigation */
+  flex-direction: row; 
   
 }
-header nav img {
-    height: 40px; /* Ajustez cette valeur (30px, 40px, etc.) */
-    width: auto;   /* Maintient les proportions */
-    margin-right: 10px; /* Un petit espace entre l'image et le texte */
-}
- 
-.text-nav{
-    display: flex; /* Affiche les éléments en ligne */
-    justify-content: justify; 
-    gap: 20px; /* Espacement entre les elements */
-    list-style: none;
-    
-    
-}
-.text-nav a{
-    color: #000000a2;
-    text-decoration: none;
-    justify-content: space-between;/* Aligne les éléments à gauche et à droite */
-    font-size: 14px;/* Taille du texte des liens de navigation */
-    
-    
-  
-  
-
-   
-  
-}
-.text-nav a:hover{
-  color: #FEA82E;
-
+.logo-img {
+  height: 36px;
+  width: auto;
 }
 .logo{
   color: rgb(0, 0, 0);
-  font-weight: 300;
   font-size: 1.3rem;/* Taille du texte du logo */
   font-weight: 700;/* Met en gras le texte du logo */
   text-decoration: none;
   margin-right: 2rem;/* Espace à droite du logo */
   display: flex;
   align-items: center;
+  
 }
 .logo span {
-  color: #000000a2;
-  font-weight: 300;
   font-size: 1.3rem;
   font-weight: 700;
+  color:#333
 
 }
 .logo span1 {
   color: #327497;
-  font-weight: 400;
   font-size: 1.3rem;
   font-weight: 700;
 }
-.logo-img {
-  height: 40px; /* Ajustez cette valeur (30px, 40px, etc.) */
-  width: auto;   /* Maintient les proportions */
-  margin-right: 10px; /* Un petit espace entre l'image et le texte */
-  align-items: center;
+.menu_toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 22px;
+  color: #1a1a2e;
+  padding: 6px;
+  border-radius: 8px;
+  margin-left: 100px;     /* ← pousse à droite */
+  transition: background 0.2s;
 }
+.menu_toggle:hover { background: #fea72e22; }
+
+
+
+ 
+.text-nav{
+    display: flex; /* Affiche les éléments en ligne */
+   align-items: center;
+    gap: 20px; /* Espacement entre les elements */
+    list-style: none;
+    margin-top: 0;
+    
+    
+}
+.text-nav a{
+    color: #000000a2;
+    text-decoration: none;
+    font-size: 14px;/* Taille du texte des liens de navigation */
+}
+.text-nav a:hover{
+  color: #FEA82E;
+
+}
+
 h1{
   font-weight: 700;
   color: #1a1a2e;
@@ -239,12 +245,12 @@ footer h3 {
 } 
 
 @media (max-width: 770px){ 
-  .bandeau-fleteo {
-    flex-direction: column;
-    gap: 10px;
-    padding: 15px;
+  header nav {
+    display: flex;
+    flex-direction: column;  /* ← englobe tout en colonne */
   }
-
+  
+  
   main {
     padding: 1rem;
   }
@@ -269,86 +275,76 @@ footer h3 {
   .footer-btn {
     width: 100%;
   }
-  .logo {
-    font-size: 1rem;
-    margin-bottom: 1rem;
+  
+  .logo-img {
+    height: 40px;
+    width: auto;
   }
+
+  .logo {
+    font-size: 1.1rem;
+    margin-right: 0;
+  }
+  
   .logo span {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .logo span1 {
-    font-size: 1rem;
+     font-size: 1.1rem;
   }
   
-.menu_toggle{
-  z-index: 10; /* Assure que le bouton de menu est au-dessus des autres éléments */
-  height: 50px;
-  width: 50px;
-  
-  cursor: pointer;
-  position: relative;/* Permet de positionner les pseudo-éléments par rapport à ce conteneur */
-  display: flex; 
-  align-items: center;
-  justify-content: end;
-  margin-left: auto;
-}
-.menu_toggle::before{
-  position: absolute;
-  content: '';
-  transform: translate(-10px); 
-  width: 28px;
-  height: 5px;  
-  background-color: #000;
-  border-radius: 6px ;
-  box-shadow: 6px 10px #000;
-  transition: 0.5s;
-
-
-}
-  .menu_toggle.active::before{
-    box-shadow:0 0 0 #000;
-    
-   transform: translateY(0) rotate(135deg)
-
-  }
-  .menu_toggle::after{
-  position: absolute;
-  content: '';
-  transform: translateY( 10px); 
-  width: 28px;
-  height: 5px;  
-  background-color: #000;
-  border-radius: 6px ;
-  transition: 0.5s;
-  
-}
-.menu_toggle.active::after { 
- transform: translateY(0) rotate(-135deg);
-  }
-   .text-nav {
-    display:none; ;
-    
+  .navbar {
+     display: flex;
+    flex-direction: row;
+    align-items: center;  /* ← centre verticalement logo + toggle */
+    width: 100%;
+    padding: 4px 0;
   }
 
- .text-nav.responsive { 
-  display: flex;
-  top : 0;
-  left: 0;
-  width: 100%; 
-  height : 100%;
-  flex-direction: column;
-  margin-right: auto;
-  
-    
+  /* toggle visible */
+  .menu_toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;    /* ← pousse à droite */
+    width: 36px;
+    height: 36px;
+    background: #fea72e22;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #1a1a2e
   }
-.text-nav.responsive a {
-  color: rgb(0, 0, 0);
-  font-size: 10px;
-  padding: 5px; 
 
-  border-radius: 10px;
+  /* liens cachés par défaut */
+  .text-nav {
+    display: none;
+    flex-direction: column;  /* ← colonne sur mobile */
+    width: 100%;
+    gap: 4px;
+    padding: 8px 0;
+  }
 
-}
+  /* liens visibles quand menu ouvert */
+  .text-nav.responsive {
+    display: flex;
+  }
+
+  .text-nav a {
+    font-size: 15px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    color: #1a1a2e;
+    width: 100%;
+    white-space: normal;
+  }
+
+  .text-nav a:hover {
+    background: #fea72e22;
+    color: #FEA82E;
+  }
+
 .text-nav.responsive a:hover {
   color: #FEA82E;
 
@@ -411,11 +407,15 @@ article.active{
   transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 
-/* Ajoutez aussi un style pour le logo pour qu'il soit visible */
+
 #loader .logo {
-  font-size: 2rem; /* Ajustez la taille */
+  font-size: 2rem;
   font-weight: bold;
-  color: #333; /* Assurez-vous que la couleur n'est pas blanche */
+  color: #333;
+}
+#loader .logo span1,
+#loader .logo span {
+  font-size: 2rem;
 }
  
 #loader.hidden {
@@ -434,4 +434,42 @@ article.active{
 
 @keyframes spin {
   to { transform: rotate(360deg); }
+}
+.error-container {
+    height: 70vh; /* Prend 70% de la hauteur d'écran */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.error-content h1 {
+    font-size: 8rem;
+    color: #FEA82E; /* Reprends ta couleur orange Fleteo */
+    margin: 0;
+}
+
+.error-actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.error-actions a {
+    padding: 10px 20px;
+    background: #FEA82E;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, padding 0.3s, color 0.3s;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    background: #FEA82E;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }

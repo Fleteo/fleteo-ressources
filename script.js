@@ -1,12 +1,22 @@
 
-// ── 2. MENU après le header ──
+// ──  MENU ──
 var menu = document.querySelector('.text-nav');
 var menu_toggle = document.querySelector('.menu_toggle');
-menu_toggle.onclick = function() {
-  menu_toggle.classList.toggle('active');
-  menu.classList.toggle('responsive');
-}
 
+if (menu_toggle && menu) {
+  menu_toggle.onclick = function() {
+    menu.classList.toggle('responsive');
+
+    // Change icône bars ↔ xmark
+    const icon = menu_toggle.querySelector('i');
+    if (icon.classList.contains('fa-bars')) {
+      icon.classList.replace('fa-bars', 'fa-xmark');
+    } else {
+      icon.classList.replace('fa-xmark', 'fa-bars');
+    }
+  }
+}
+// ──  LOADER ──
 setTimeout(() => {
   const loader = document.getElementById('loader');
   if (loader) {
@@ -14,7 +24,7 @@ setTimeout(() => {
   }
 }, 3000);
 
-// ── 4. SCROLL REVEAL ──
+// ──  SCROLL ──
 const articles = document.querySelectorAll('article');
 
 function checkArticles() {
