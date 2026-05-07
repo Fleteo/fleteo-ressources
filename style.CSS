@@ -103,10 +103,10 @@ h1{
   margin: 20px 20px 20px 20px;
 }
 article {
-  background-color: #f4f7fa;  border-radius: 10px;
+  background-color: #0066FF22;  border-radius: 10px;
   padding: 1.2rem 2rem;
   margin-bottom: 1.5rem;/* Espace entre les articles */
-  border: 1px solid #10B981; /* Bordure légère pour délimiter les articles */
+  border: 1px solid #0066FF; /* Bordure légère pour délimiter les articles */
 
   box-shadow: #0000001c 0px 2px 4px;
   transform: translateY(50%);
@@ -375,12 +375,12 @@ footer h3 {
   }
 
   .text-nav a:hover {
-    background: #fea72e22;
-    color: #FEA82E;
+    background: #0066FF22;
+    color: #0066FF;
   }
 
 .text-nav.responsive a:hover {
-  color: #FEA82E;
+  color: #0066FF;
 
 }
 }
@@ -392,6 +392,10 @@ footer h3 {
  
 }
 .imp h2, .imp strong { color: #10B981; }
+.imp p, .imp li {
+  color: #075239;
+  
+}
 
 
 .def {
@@ -400,6 +404,10 @@ footer h3 {
  
 }
 .def h2, .def strong { color: #b87200; }
+.def p, .def li {
+  color: #5a3e1b;
+  
+}
 .def img{
   height: 120px;
   width: 100%;
@@ -420,6 +428,10 @@ footer h3 {
 
 }
 .risques h2, .risques strong { color: #EF4444; }
+.risques p, .risques li {
+  color: #7f1d1d;
+  
+}
 
 section, article, .container > a {
   opacity: 0;
