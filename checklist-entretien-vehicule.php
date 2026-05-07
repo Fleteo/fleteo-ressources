@@ -1,18 +1,4 @@
-<!doctype html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Checklist complète d'entretien véhicule de flotte : fichiers de maintenance, tableau de suivi, contrôles de sécurité et entretien annuel pour garder votre parc en parfait état." />
-  
-    <link rel="stylesheet" href="style.css" />
-    <title>Checklist Entretien Véhicule de Flotte | Fleteo Ressources</title>
-  </head>
-   <div id="loader"></div> 
-  <body>
-      
-    <main>
-       <header id="header"></header> 
+
 
       <h1>Checklist Entretien Véhicule de Flotte</h1>
 
@@ -161,8 +147,4 @@
       </article>
        
 
-       <footer id="footer"></footer> 
-    </main>
-    <script src="script.js"></script>
-  </body>
-</html>
+   
