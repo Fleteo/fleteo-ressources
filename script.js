@@ -22,22 +22,26 @@ setTimeout(() => {
   if (loader) {
     loader.classList.add('hidden');
   }
-}, 3000);
+}, 1000);
 
 // ──  SCROLL ──
-const articles = document.querySelectorAll('article');
+const elementsToAnimate = document.querySelectorAll('article, section, .container > a');
 
-function checkArticles() {
-  const triggerBottom = window.innerHeight;
-  articles.forEach(article => {
-    const articleTop = article.getBoundingClientRect().top;
-    if (articleTop < triggerBottom) {
-      article.classList.add('active');
+function checkElements() {
+  const triggerBottom = window.innerHeight * 0.9; // Déclenche un peu avant le bas pour plus de fluidité
+
+  elementsToAnimate.forEach(el => {
+    const elTop = el.getBoundingClientRect().top;
+    
+    if (elTop < triggerBottom) {
+      el.classList.add('active');
     } else {
-      article.classList.remove('active');
+      el.classList.remove('active');
     }
   });
 }
 
-window.addEventListener('scroll', checkArticles);
-checkArticles();
+// Un seul écouteur pour tout gérer
+window.addEventListener('scroll', checkElements);
+// On l'appelle une fois au chargement pour afficher ce qui est déjà à l'écran
+checkElements();

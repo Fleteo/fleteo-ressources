@@ -1,141 +1,136 @@
+<h1>Logiciel de Suivi Véhicules pour les Entreprises</h1>
+<section class="def">
+  <h2>Notions</h2>
+  <ol>
+    <p>
+      Un logiciel de suivi de véhicules est un outil numérique qui permet à une entreprise
+      de localiser, surveiller et analyser l'ensemble de ses véhicules en temps réel.
+      Grâce à un boîtier GPS installé dans chaque véhicule, toutes les données , position,
+      vitesse, consommation, trajets , remontent automatiquement dans une interface
+      accessible depuis un ordinateur ou un smartphone.
+    </p>
 
-      <h1>Logiciel de Suivi Véhicules pour les Entreprises</h1>
-      <article class="def">
-        <h2>Notions</h2>
-        <ol>
-            <p>
-              Un logiciel de suivi de véhicules est un outil numérique qui permet à une entreprise
-              de localiser, surveiller et analyser l'ensemble de ses véhicules en temps réel.
-              Grâce à un boîtier GPS installé dans chaque véhicule, toutes les données , position,
-              vitesse, consommation, trajets , remontent automatiquement dans une interface 
-              accessible depuis un ordinateur ou un smartphone.
-            </p>
-         
-            <p>
-              Le suivi de flotte va au-delà de la simple localisation GPS. il  collecte
-              et d'analyse toutes les données liées à l'utilisation des véhicules : qui conduit?
-              où? quand? à quelle vitesse et combien ça coûte. C'est l'outil qui transforme une
-              flotte invisible en un actif parfaitement maîtrisé.
-            </p>
-          </li>
-        </ol>
- <img
-            src="images/img6-1200.webp"
-            srcset="
+    <p>
+      Le suivi de flotte va au-delà de la simple localisation GPS. il collecte
+      et d'analyse toutes les données liées à l'utilisation des véhicules : qui conduit?
+      où? quand? à quelle vitesse et combien ça coûte. C'est l'outil qui transforme une
+      flotte invisible en un actif parfaitement maîtrisé.
+    </p>
+    </li>
+  </ol>
+  <img src="images/img6-1200.webp" srcset="
               images/img6-400.webp 400w,
               images/img6-800.webp  800w,
               images/img6-1200.webp 1200w
-            "
-            sizes="(max-width:600px) 400px, 800px, 1200px"
-            loading="lazy"
-            alt=" Image de gestion de flotte occitanie"
-          />
-          <div>      </article>
+            " sizes="(max-width:600px) 400px, 800px, 1200px" loading="lazy"
+    alt=" Image de gestion de flotte occitanie" />
+  <div>
+</section>
 
-      <article class="imp">
-        <h2>Pourquoi utiliser un logiciel de suivi ?</h2>
-        <p>
-        un logiciel de suivi est concu  pour avoir un contrôle total  sur ses vehicules .
-          Sans visibilité sur ses véhicules, une entreprise avance à l'aveugle.
-          Un logiciel de suivi permet de :
-        </p>
-        <ul>
-          <li>
-            Localiser chaque véhicule en temps réel : savoir exactement où se trouve chaque
-            membre de l'équipe sans avoir à les appeler.
-          </li>
-          <li>
-            Anticiper les pannes : un véhicule non suivi tombe en panne sans prévenir. Un
-            véhicule suivi envoie des alertes avant que le problème ne devienne coûteux.
-          </li>
-          <li>
-            Optimiser les tournées : envoyer le bon véhicule au bon endroit en évitant les
-            détours inutiles qui gonflent la facture carburant chaque mois.
-          </li>
-        </ul>
-      </article>
-      <article class="risques">
-        <h2>Les risques sans logiciel de suivi</h2>
-        <p>Ne pas suivre ses véhicules expose l'entreprise à des risques concrets et coûteux :</p>
-        <ul>
-          <li>
-            Pertes financières non considérées : des conducteurs qui font des détours, des véhicules
-            qui consomment trop, des maintenances oubliées, tout cela coûte des milliers d'euros par véhicule et par an sans que le dirigeant s'en rende compte.
-          </li>
-          <li>
-            Pannes imprévues : sans alertes de maintenance, une simple vidange oubliée peut
-            se transformer en panne moteur à 2 000 euros et bloquer une journée entière
-            d'activité.
-          </li>
-          <li>
-            Risque juridique : en cas d'accident, l'absence de données sur l'état du véhicule
-            et le comportement du conducteur peut engager la responsabilité personnelle du
-            dirigeant devant un tribunal.
-          </li>
-        </ul>
-      </article>
+<section class="imp">
+  <h2>Pourquoi utiliser un logiciel de suivi ?</h2>
+  <p>
+    un logiciel de suivi est concu pour avoir un contrôle total sur ses vehicules .
+    Sans visibilité sur ses véhicules, une entreprise avance à l'aveugle.
+    Un logiciel de suivi permet de :
+  </p>
+  <ul>
+    <li>
+      Localiser chaque véhicule en temps réel : savoir exactement où se trouve chaque
+      membre de l'équipe sans avoir à les appeler.
+    </li>
+    <li>
+      Anticiper les pannes : un véhicule non suivi tombe en panne sans prévenir. Un
+      véhicule suivi envoie des alertes avant que le problème ne devienne coûteux.
+    </li>
+    <li>
+      Optimiser les tournées : envoyer le bon véhicule au bon endroit en évitant les
+      détours inutiles qui gonflent la facture carburant chaque mois.
+    </li>
+  </ul>
+</section>
+<section class="risques">
+  <h2>Les risques sans logiciel de suivi</h2>
+  <p>Ne pas suivre ses véhicules expose l'entreprise à des risques concrets et coûteux :</p>
+  <ul>
+    <li>
+      Pertes financières non considérées : des conducteurs qui font des détours, des véhicules
+      qui consomment trop, des maintenances oubliées, tout cela coûte des milliers d'euros par véhicule et par an sans
+      que le dirigeant s'en rende compte.
+    </li>
+    <li>
+      Pannes imprévues : sans alertes de maintenance, une simple vidange oubliée peut
+      se transformer en panne moteur à 2 000 euros et bloquer une journée entière
+      d'activité.
+    </li>
+    <li>
+      Risque juridique : en cas d'accident, l'absence de données sur l'état du véhicule
+      et le comportement du conducteur peut engager la responsabilité personnelle du
+      dirigeant devant un tribunal.
+    </li>
+  </ul>
+</section>
 
-      <article class="def">
-        <h2>Comment bien utiliser un logiciel de suivi ?</h2>
-        <p>
-          Pour tirer le maximum d'un logiciel de suivi de véhicules, voici les bonnes
-          pratiques à adopter  :
-        </p>
-        <ul>
-          <li>
-            Installer les boîtiers GPS sur tous les véhicules : un seul véhicule non suivi
-            est un angle mort dans votre gestion. La couverture doit être totale pour que
-            les données soient fiables.
-          </li>
-          <li>
-            Activer les alertes automatiques : maintenance, sortie de zone, vitesse excessive —
-            chaque alerte configurée est une intervention évitée et une dépense prévenue.
-          </li>
-          <li>
-            Analyser les rapports régulièrement : consulter les données chaque semaine permet
-            d'identifier rapidement les véhicules qui coûtent trop cher et les conducteurs
-            qui adoptent de mauvaises habitudes.
-          </li>
-          <li>
-            Former les conducteurs : leur expliquer que le suivi est là pour les protéger —
-            en cas d'accident, les données GPS sont aussi leur meilleure preuve.
-          </li>
-        </ul>
-      </article>
-      <article class="imp">
-        <h2>Les avantages d'un suivi optimisé</h2>
-        <p>
-          Un logiciel de suivi bien utilisé transforme votre flotte en avantage compétitif :
-        </p>
-        <ul>
-          <li>
-            Économies immédiates : 15 à 20% de réduction sur le carburant grâce à
-            l'optimisation des trajets et à la détection des comportements énergivores.
-          </li>
-          <li>
-            Zéro panne surprise : les alertes de maintenance anticipent les problèmes avant
-            qu'ils ne bloquent un véhicule et une journée de travail.
-          </li>
-          <li>
-            Gain de temps administratif : plus besoin de chercher des informations éparpillées,
-            tout est centralisé et accessible en quelques secondes.
-          </li>
-          <li>
-            Image professionnelle : des véhicules suivis, bien entretenus et conduits
-            correctement renforcent la crédibilité de l'entreprise auprès des clients.
-          </li>
-        </ul>
-      </article>
+<section class="def">
+  <h2>Comment bien utiliser un logiciel de suivi ?</h2>
+  <p>
+    Pour tirer le maximum d'un logiciel de suivi de véhicules, voici les bonnes
+    pratiques à adopter :
+  </p>
+  <ul>
+    <li>
+      Installer les boîtiers GPS sur tous les véhicules : un seul véhicule non suivi
+      est un angle mort dans votre gestion. La couverture doit être totale pour que
+      les données soient fiables.
+    </li>
+    <li>
+      Activer les alertes automatiques : maintenance, sortie de zone, vitesse excessive —
+      chaque alerte configurée est une intervention évitée et une dépense prévenue.
+    </li>
+    <li>
+      Analyser les rapports régulièrement : consulter les données chaque semaine permet
+      d'identifier rapidement les véhicules qui coûtent trop cher et les conducteurs
+      qui adoptent de mauvaises habitudes.
+    </li>
+    <li>
+      Former les conducteurs : leur expliquer que le suivi est là pour les protéger —
+      en cas d'accident, les données GPS sont aussi leur meilleure preuve.
+    </li>
+  </ul>
+</section>
+<section class="imp">
+  <h2>Les avantages d'un suivi optimisé</h2>
+  <p>
+    Un logiciel de suivi bien utilisé transforme votre flotte en avantage compétitif :
+  </p>
+  <ul>
+    <li>
+      Économies immédiates : 15 à 20% de réduction sur le carburant grâce à
+      l'optimisation des trajets et à la détection des comportements énergivores.
+    </li>
+    <li>
+      Zéro panne surprise : les alertes de maintenance anticipent les problèmes avant
+      qu'ils ne bloquent un véhicule et une journée de travail.
+    </li>
+    <li>
+      Gain de temps administratif : plus besoin de chercher des informations éparpillées,
+      tout est centralisé et accessible en quelques secondes.
+    </li>
+    <li>
+      Image professionnelle : des véhicules suivis, bien entretenus et conduits
+      correctement renforcent la crédibilité de l'entreprise auprès des clients.
+    </li>
+  </ul>
+</section>
 
-      <article class="def">
-        <h2>Quel logiciel de suivi choisir ?</h2>
-        <p>
-          Il existe aujourd'hui des logiciels spécialisés comme Fleteo qui permettent de
-          centraliser toutes les informations de votre flotte en un seul endroit. Ces outils
-          offrent la localisation en temps réel, des alertes automatiques pour les révisions,
-          le suivi des conducteurs, la gestion des contrats et des tableaux de bord pour
-          analyser les coûts en temps réel. Pour une PME, c'est la solution la plus efficace
-          pour reprendre le contrôle sans complexité technique.
-        </p>
-      </article>
-     
+<section class="def">
+  <h2>Quel logiciel de suivi choisir ?</h2>
+  <p>
+    Il existe aujourd'hui des logiciels spécialisés comme Fleteo qui permettent de
+    centraliser toutes les informations de votre flotte en un seul endroit. Ces outils
+    offrent la localisation en temps réel, des alertes automatiques pour les révisions,
+    le suivi des conducteurs, la gestion des contrats et des tableaux de bord pour
+    analyser les coûts en temps réel. Pour une PME, c'est la solution la plus efficace
+    pour reprendre le contrôle sans complexité technique.
+  </p>
+</section>

@@ -1,78 +1,91 @@
+<h1>Coûts de Gestion de Flotte </h1>
 
+<section class="def">
+  <p>
+    La gestion d'une flotte automobile est souvent l'un des postes de dépenses les plus importants pour une entreprise
+    après la masse salariale. Que vous soyez une PME en pleine croissance ou une entreprise établie, maîtriser le
+    <strong>TCO (Total Cost of Ownership)</strong> est crucial. Un véhicule ne coûte pas seulement son prix d'achat : il
+    représente un flux continu de dépenses qui, sans surveillance, peut grignoter votre rentabilité.
+  </p>
+</section>
 
-      <h1>Coûts de Gestion de Flotte </h1>
+<section class="imp">
+  <h2>La Planification Budgétaire : Sortir du Pilotage à Vue</h2>
+  <p>
+    Pour réduire vos coûts d'exploitation, vous devez définir une vision claire. Deux méthodes principales s'offrent aux
+    gestionnaires :
+  </p>
+  <ul>
+    <li><strong>La budgétisation incrémentielle :</strong> Vous repartez du budget de l'année précédente en l'ajustant.
+      Simple, mais elle peut masquer des inefficacités chroniques.</li>
+    <li><strong>La budgétisation base zéro :</strong> Chaque dépense doit être justifiée à nouveau chaque année. C'est
+      la méthode la plus efficace pour éliminer les coûts superflus.</li>
+  </ul>
+</section>
 
-      <article class="def">
-        <p>
-          La gestion d'une flotte automobile est souvent l'un des postes de dépenses les plus importants pour une entreprise après la masse salariale. Que vous soyez une PME en pleine croissance ou une entreprise établie, maîtriser le <strong>TCO (Total Cost of Ownership)</strong> est crucial. Un véhicule ne coûte pas seulement son prix d'achat : il représente un flux continu de dépenses qui, sans surveillance, peut grignoter votre rentabilité.
-        </p>
-      </article>
+<section class="def">
+  <h2>Le TCO : Calculer le Coût Réel de vos Véhicules</h2>
+  <p>
+    Le TCO est la somme de tous les coûts directs et indirects liés à un véhicule sur sa durée de vie. Il inclut :
+  </p>
+  <ul>
+    <li><strong>Coûts d'acquisition :</strong> Prix d'achat, frais de financement, taxes.</li>
+    <li><strong>Coûts d'exploitation :</strong> Carburant, maintenance, assurance, péages.</li>
+    <li><strong>Coûts indirects :</strong> Temps perdu en cas de panne, impact sur la productivité, dépréciation du
+      véhicule.</li>
+  </ul>
+  <h2> Comprendre la Structure des Coûts : Fixes vs Variables</h2>
+  <p>
+    Pour mieux contrôler vos finances, il faut décomposer vos dépenses en deux catégories distinctes :
+  </p>
 
-      <article class="imp">
-        <h2>La Planification Budgétaire : Sortir du Pilotage à Vue</h2>
-        <p>
-          Pour réduire vos coûts d'exploitation, vous devez définir une vision claire. Deux méthodes principales s'offrent aux gestionnaires :
-        </p>
-        <ul>
-          <li><strong>La budgétisation incrémentielle :</strong> Vous repartez du budget de l'année précédente en l'ajustant. Simple, mais elle peut masquer des inefficacités chroniques.</li>
-          <li><strong>La budgétisation base zéro :</strong> Chaque dépense doit être justifiée à nouveau chaque année. C'est la méthode la plus efficace pour éliminer les coûts superflus.</li>
-        </ul>
-      </article>
+  <h3>Les Coûts Directs Fixes</h3>
+  <p>Ce sont les frais stables qui ne dépendent pas du nombre de kilomètres parcourus :</p>
+  <ul>
+    <li>L'achat ou le loyer (LLD, LOA) du véhicule.</li>
+    <li>L'amortissement comptable.</li>
+    <li>L'assurance et les taxes (TVS, carte grise).</li>
+    <li>Les salaires des chauffeurs et du personnel administratif.</li>
+  </ul>
 
-      <article class="def">
-         <h2>Le TCO : Calculer le Coût Réel de vos Véhicules</h2>
-         <p>
-           Le TCO est la somme de tous les coûts directs et indirects liés à un véhicule sur sa durée de vie. Il inclut :
-         </p>
-         <ul>
-           <li><strong>Coûts d'acquisition :</strong> Prix d'achat, frais de financement, taxes.</li>
-           <li><strong>Coûts d'exploitation :</strong> Carburant, maintenance, assurance, péages.</li>
-           <li><strong>Coûts indirects :</strong> Temps perdu en cas de panne, impact sur la productivité, dépréciation du véhicule.</li>
-         </ul>
-        <h2> Comprendre la Structure des Coûts : Fixes vs Variables</h2>
-        <p>
-          Pour mieux contrôler vos finances, il faut décomposer vos dépenses en deux catégories distinctes :
-        </p>
-        
-        <h3>Les Coûts Directs Fixes</h3>
-        <p>Ce sont les frais stables qui ne dépendent pas du nombre de kilomètres parcourus :</p>
-        <ul>
-          <li>L'achat ou le loyer (LLD, LOA) du véhicule.</li>
-          <li>L'amortissement comptable.</li>
-          <li>L'assurance et les taxes (TVS, carte grise).</li>
-          <li>Les salaires des chauffeurs et du personnel administratif.</li>
-        </ul>
+  <h3>Les Coûts Directs Variables</h3>
+  <p>Ces coûts fluctuent selon l'activité de l'entreprise :</p>
+  <ul>
+    <li><strong>Carburant :</strong> Le premier poste de dépense variable.</li>
+    <li><strong>Maintenance :</strong> Réparations, vidanges et usure des pneumatiques.</li>
+    <li><strong>Péages et amendes :</strong> Souvent sous-estimés dans le budget prévisionnel.</li>
+  </ul>
+</section>
 
-        <h3>Les Coûts Directs Variables</h3>
-        <p>Ces coûts fluctuent selon l'activité de l'entreprise :</p>
-        <ul>
-          <li><strong>Carburant :</strong> Le premier poste de dépense variable.</li>
-          <li><strong>Maintenance :</strong> Réparations, vidanges et usure des pneumatiques.</li>
-          <li><strong>Péages et amendes :</strong> Souvent sous-estimés dans le budget prévisionnel.</li>
-        </ul>
-      </article>
+<section class="imp">
+  <h2> L'Assurance : Un Levier de Réduction de Coûts</h2>
+  <p>
+    L'atténuation des risques est un aspect majeur du contrôle budgétaire. Un accident n'impacte pas seulement votre
+    prime d'assurance, il génère des coûts indirects : véhicule immobilisé, retard de livraison et perte d'image de
+    marque.
+  </p>
+  <p>
+    <strong>Le conseil Fleteo :</strong> Investir dans la formation des conducteurs n'est pas une dépense, mais un
+    investissement. Des conducteurs sensibilisés à la sécurité réduisent la sinistralité, ce qui permet de négocier des
+    remises importantes sur vos contrats d'assurance.
+  </p>
+</section>
 
-      <article class="imp">
-        <h2> L'Assurance : Un Levier de Réduction de Coûts</h2>
-        <p>
-          L'atténuation des risques est un aspect majeur du contrôle budgétaire. Un accident n'impacte pas seulement votre prime d'assurance, il génère des coûts indirects : véhicule immobilisé, retard de livraison et perte d'image de marque.
-        </p>
-        <p>
-          <strong>Le conseil Fleteo :</strong> Investir dans la formation des conducteurs n'est pas une dépense, mais un investissement. Des conducteurs sensibilisés à la sécurité réduisent la sinistralité, ce qui permet de négocier des remises importantes sur vos contrats d'assurance.
-        </p>
-      </article>
+<section class="imp">
+  <h2> Stratégies Concrètes pour Réduire vos Dépenses</h2>
+  <p>
+    L'automatisation est aujourd'hui le moyen le plus simple et le plus rapide de réduire vos frais de flotte.
+  </p>
+  <ul>
+    <li><strong>Optimisation des itinéraires :</strong> Réduire les kilomètres inutiles, c'est économiser directement du
+      carburant et limiter l'usure moteur.</li>
+    <li><strong>Suivi des comportements :</strong> Encourager l'éco-conduite peut faire baisser la facture de carburant
+      jusqu'à 15 %.</li>
+    <li><strong>Maintenance préventive :</strong> Une notification automatique avant une panne majeure coûte 5 fois
+      moins cher qu'une réparation d'urgence avec dépannage sur autoroute.</li>
+    <li><strong>Gestion des coûts indirects :</strong> En centralisant vos documents (cartes grises, factures,
+      contrats), vous réduisez le temps administratif passé par vos équipes sur la flotte.</li>
+  </ul>
+</section>
 
-      <article class="imp">
-        <h2> Stratégies Concrètes pour Réduire vos Dépenses</h2>
-        <p>
-          L'automatisation est aujourd'hui le moyen le plus simple et le plus rapide de réduire vos frais de flotte.
-        </p>
-        <ul>
-          <li><strong>Optimisation des itinéraires :</strong> Réduire les kilomètres inutiles, c'est économiser directement du carburant et limiter l'usure moteur.</li>
-          <li><strong>Suivi des comportements :</strong> Encourager l'éco-conduite peut faire baisser la facture de carburant jusqu'à 15 %.</li>
-          <li><strong>Maintenance préventive :</strong> Une notification automatique avant une panne majeure coûte 5 fois moins cher qu'une réparation d'urgence avec dépannage sur autoroute.</li>
-          <li><strong>Gestion des coûts indirects :</strong> En centralisant vos documents (cartes grises, factures, contrats), vous réduisez le temps administratif passé par vos équipes sur la flotte.</li>
-        </ul>
-      </article>
-       
 </div>

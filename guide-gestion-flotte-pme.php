@@ -1,6 +1,6 @@
 <h1>Guide de Gestion de Flotte pour les PME</h1>
 
-<article class="def">
+<section class="def">
   <p>
     Une flotte automobile représente l'ensemble des véhicules qu'une entreprise possède ou loue pour assurer ses
     activités : voitures de fonction, utilitaires, camions, deux-roues motorisés. Dès que vous avez trois véhicules ou
@@ -20,9 +20,9 @@
             " sizes="(max-width:600px) 400px, 800px, 1200px" loading="lazy"
     alt=" Image de gestion de flotte occitanie" />
   <div>
-</article>
+</section>
 
-<article class="imp">
+<section class="imp">
   <h2>Pourquoi gérer activement sa flotte ?</h2>
   <p>
     Sans gestion structurée, une entreprise avance à l'aveugle. Les dépenses s'accumulent sans que personne ne les voit,
@@ -51,9 +51,9 @@
       risques lors des contrôles routiers.
     </li>
   </ul>
-</article>
+</section>
 
-<article class="risques">
+<section class="risques">
   <h2>Les risques concrets d'une mauvaise gestion</h2>
   <p>Une mauvaise gestion de flotte ne se voit pas tout de suite elle se ressent progressivement sur la rentabilité et
     sur la sérénité du dirigeant :</p>
@@ -80,9 +80,9 @@
       heures. Ce temps perdu représente un coût réel pour l'entreprise.
     </li>
   </ul>
-</article>
+</section>
 
-<article class="def">
+<section class="def">
   <h2>Comment bien gérer sa flotte : les 4 étapes essentielles</h2>
   <p>
     Passer d'une gestion réactive à une gestion maîtrisée ne demande pas de compétences techniques particulières. Il
@@ -110,9 +110,9 @@
       rapidement les anomalies permet également de détecter les problèmes avant qu'ils ne deviennent coûteux.
     </li>
   </ul>
-</article>
+</section>
 
-<article class="imp">
+<section class="imp">
   <h2>Les avantages concrets d'une gestion optimisée</h2>
   <p>
     Une bonne gestion transforme votre parc automobile d'une source de stress et de dépenses subies en un véritable
@@ -144,9 +144,9 @@
       constitue une preuve solide en cas de contrôle ou d'accident. C'est une sérénité qui n'a pas de prix.
     </li>
   </ul>
-</article>
+</section>
 
-<article class="def">
+<section class="def">
   <h2>Quel outil pour gérer sa flotte en PME ?</h2>
   <p>
     Pour une PME entre 3 et 50 véhicules, trois options existent. Le tableur est gratuit mais chronophage et source
@@ -166,4 +166,4 @@
       href="checklist-entretien-vehicule.html">checklist d'entretien véhicule</a> pour mettre en place dès aujourd'hui
     une maintenance préventive efficace.
   </p>
-</article>
+</section>
