@@ -72,9 +72,6 @@ header nav {
 }
 .menu_toggle:hover { background: #fea72e22; }
 
-
-
- 
 .text-nav{
     display: flex; /* Affiche les éléments en ligne */
    align-items: center;
@@ -103,10 +100,11 @@ h1{
   margin: 20px 20px 20px 20px;
 }
 article {
-  background-color: #0066FF22;  border-radius: 10px;
+  background-color: #F8FAFC;
+  border-radius: 10px;
   padding: 1.2rem 2rem;
   margin-bottom: 1.5rem;/* Espace entre les articles */
-  border: 1px solid #0066FF; /* Bordure légère pour délimiter les articles */
+  border: 1px solid #FFFFFF; /* Bordure légère pour délimiter les articles */
 
   box-shadow: #0000001c 0px 2px 4px;
   transform: translateY(50%);
@@ -133,15 +131,12 @@ article ul li {
   list-style: none;
 }
 section {
-  background-color: #fff8ee;  border-radius: 10px;
-  padding: 1.2rem 2rem;
-  margin-bottom: 1.5rem;/* Espace entre les articles */
-  border: 1px solid #fea72e55; /* Bordure légère pour délimiter les articles */
-  border-left: 4px solid #FEA82E;
+  margin: 20px;
+  background-color:#f4f7fa;
+  padding: 20px;
+  border-radius: 10px;
   box-shadow: #0000001c 0px 2px 4px;
-  transform: translateY(50%);
-  transition:0.5s;
-  transition: transform 0.6s ease, opacity 0.6s ease;
+
   
   
 
@@ -151,7 +146,30 @@ section a {
     text-decoration: none;
     color: #1a1a2e;
 }
-
+section article.danger {
+  background-color: #faeeee;  border-radius: 10px;
+  padding: 1.2rem 2rem;
+  margin-bottom: 1.5rem;/* Espace entre les articles */
+  border: 1px solid #EF4444; /* Bordure légère pour délimiter les articles */
+  box-shadow: #0000001c 0px 2px 4px;
+ 
+}
+section article.important {
+  background-color: #eefaf0;  border-radius: 10px;
+  padding: 1.2rem 2rem;
+  margin-bottom: 1.5rem;/* Espace entre les articles */
+  border: 1px solid #10B981; /* Bordure légère pour délimiter les articles */
+  box-shadow: #0000001c 0px 2px 4px;
+}
+section article.important h2, .important strong { color: #10B981; }
+section article.definition {
+  background-color: #fff8ee;  border-radius: 10px;
+  padding: 1.2rem 2rem;
+  margin-bottom: 1.5rem;/* Espace entre les articles */
+  border: 1px solid #b87200; /* Bordure légère pour délimiter les articles */
+  box-shadow: #0000001c 0px 2px 4px;
+  
+}
 /* Pour le texte dans l'article */
 .article-text {
     padding: 10px;
@@ -240,11 +258,6 @@ footer a:hover {
   transition: background-color 0.3s, padding 0.3s, color 0.3s;
 }
 
-
-
-
-
-
 footer h3 {
   color: white;
   margin-bottom: 1rem;
@@ -252,7 +265,7 @@ footer h3 {
 }
 .container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
   gap: 30px;
   
 }
@@ -386,10 +399,8 @@ footer h3 {
 }
 
 .imp {
-  background-color: #eefaf0;
+  background-color: #f4f7fa;
   border: 1px solid #10B981;
-  
- 
 }
 .imp h2, .imp strong { color: #10B981; }
 .imp p, .imp li {
@@ -399,7 +410,7 @@ footer h3 {
 
 
 .def {
-  background-color: #fff8ee;
+  background-color: #f4f7fa;
   border: 1px solid #b87200;
  
 }
@@ -423,7 +434,7 @@ footer h3 {
 }
 
 .risques {
-  background-color: #faeeee;
+  background-color: #f4f7fa;
   border: 1px solid #EF4444;
 
 }

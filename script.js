@@ -1,11 +1,11 @@
 
 // ──  MENU ──
-var menu = document.querySelector('.text-nav');
+var nav = document.querySelector('.text-nav');
 var menu_toggle = document.querySelector('.menu_toggle');
 
-if (menu_toggle && menu) {
+if (menu_toggle && nav) {
   menu_toggle.onclick = function() {
-    menu.classList.toggle('responsive');
+    nav.classList.toggle('responsive');
 
     // Change icône bars ↔ xmark
     const icon = menu_toggle.querySelector('i');

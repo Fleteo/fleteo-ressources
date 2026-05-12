@@ -8,19 +8,3 @@ RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?page=$1 [L,QSA]
   AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript
 </IfModule>
 
-# Mise en cache des images (1 an)
-<IfModule mod_expires.c>
-  ExpiresActive On
-  ExpiresByType image/webp "access plus 1 year"
-  ExpiresByType image/png "access plus 1 year"
-</IfModule>
-
-# 1. Protection contre le Clickjacking (X-Frame-Options)
-Header always set X-Frame-Options "SAMEORIGIN"
-
-# 2. Protection contre le XSS (Content Security Policy)
-# Note : C'est une version de base, à adapter selon tes besoins JS/CSS
-Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data:;"
-
-# 3. Forcer le HTTPS (HSTS) - À n'activer que si tu as un certificat SSL (Certbot/Let's Encrypt)
-Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
