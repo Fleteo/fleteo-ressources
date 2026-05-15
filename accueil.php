@@ -1,8 +1,9 @@
-<h1>Bienvenue sur Fleteo Ressources</h1>
+<h1 class="font-bold text-3xl text-blue-600">Bienvenue sur Fleteo Ressources</h1>
 <div class="container">
-  <a href="guide-gestion-flotte-pme">
+  <a href="gestion-flotte">
     <article>
-      <img src="images/img1.webp"  fetchpriority="high" srcset="images/img1-400.webp 400w, images/img1-800.webp 800w, images/img1.webp 1200w"
+      <img src="images/img1.webp" fetchpriority="high"
+        srcset="images/img1-400.webp 400w, images/img1-800.webp 800w, images/img1.webp 1200w"
         sizes="(max-width:600px) 400px, 800px, 1200px" loading="lazy" alt="Image de gestion de flotte" />
 
       <div class="article-text">
